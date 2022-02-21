@@ -7,8 +7,15 @@ module.exports = {
     extend: {},
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      primary: "#4653DD"
+      primary: "#4653DD",
+      secondary: "#072A58"
     }),
+    colors:{
+      primary: "#4653DD",
+      secondary: "#072A58",
+      white: "#fff",
+      black: "#000",
+    }
   },
   plugins: [],
 }
